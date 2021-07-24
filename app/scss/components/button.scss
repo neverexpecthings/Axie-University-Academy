@@ -4,4 +4,8 @@
   position: absolute;
   left: rem(1260);
   top: rem(3675);
+
+  @include breakpoint-down(xlarge) {
+    left: rem(975);
+  }
 }

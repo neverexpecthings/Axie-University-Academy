@@ -2,7 +2,12 @@
 
 .wrapper {
   width: rem(1744);
-  margin: rem(50) auto;
+  margin-top: rem(50);
+  margin-bottom: rem(30);
+
+  @include breakpoint-down(xlarge) {
+    width: rem(1328);
+  }
 }
 
 .hero {
@@ -24,19 +29,24 @@
 .right {
   position: absolute;
   left: 69.37%;
-  top: 171.79%;
+  top: 175%;
+
+  @include breakpoint-down(xlarge) {
+    left: 65.37%;
+    top: 182%;
+  }
 }
 
 .mid {
   position: absolute;
-  left: rem(677.64);
-  top: rem(1515.13);
+  left: rem(445.64);
+  top: rem(1455.13);
 }
 
 .left {
   position: absolute;
-  left: rem(119);
-  top: rem(1466);
+  left: rem(35);
+  top: rem(1405);
 }
 
 .rectangle {

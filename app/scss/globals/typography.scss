@@ -33,6 +33,12 @@ a:active {
 .hero-main-h1 {
   width: rem(950);
   font-size: rem(155);
+  margin-top: rem(35);
+
+  @include breakpoint-down(xlarge) {
+    width: rem(930);
+    font-size: rem(133);
+  }
 }
 
 .section_Header-one {
@@ -60,4 +66,8 @@ a:active {
   color: var(--white);
   font-size: rem(30);
   margin-right: rem(10);
+}
+
+.hover:hover {
+  color: var(--main-yellow);
 }

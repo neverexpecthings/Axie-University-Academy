@@ -5,6 +5,11 @@
   left: rem(1400);
   top: rem(620);
   animation: rotation 5s infinite linear;
+
+  @include breakpoint-down(xlarge) {
+    left: rem(1020);
+    top: rem(550);
+  }
 }
 
 @keyframes rotation {
@@ -20,4 +25,9 @@
   position: absolute;
   left: rem(1325);
   top: rem(500);
+
+  @include breakpoint-down(xlarge) {
+    left: rem(945);
+    top: rem(425);
+  }
 }
