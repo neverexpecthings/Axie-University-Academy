@@ -30,49 +30,6 @@
   margin-top: rem(150);
 }
 
-.right {
-  position: absolute;
-  left: 69.37%;
-  top: 175%;
-
-  @include breakpoint-down(xlarge) {
-    left: 65.37%;
-    top: 182%;
-  }
-
-  @include breakpoint-down(large) {
-    left: 61.37%;
-    top: 189%;
-  }
-}
-
-.mid {
-  position: absolute;
-  left: 41.8125rem;
-  top: 96.9375rem;
-
-  @include breakpoint-down(xlarge) {
-    left: rem(445);
-    top: rem(1451);
-  }
-
-  // @include breakpoint-down(large) {
-  //   left: rem(420);
-  //   top: rem(1200);
-  // }
-}
-
-.left {
-  position: absolute;
-  left: 7.5rem;
-  top: 92.5rem;
-
-  @include breakpoint-down(xlarge) {
-    left: rem(35);
-    top: rem(1380);
-  }
-}
-
 .rectangle {
   width: rem(1665);
   height: rem(830);

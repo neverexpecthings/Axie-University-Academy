@@ -87,3 +87,35 @@ a:active {
 .hover:hover {
   color: var(--main-yellow);
 }
+
+.section {
+  &_left {
+    margin-top: rem(90);
+  }
+
+  &_mid {
+    margin-top: rem(75);
+  }
+
+  &_right {
+    margin-top: rem(90);
+  }
+
+  &_p {
+    width: rem(400);
+    text-align: center;
+    font-size: rem(20);
+  }
+
+  &_p2 {
+    width: rem(400);
+    text-align: right;
+    font-size: rem(20);
+  }
+
+  &_p3 {
+    width: rem(400);
+    text-align: left;
+    font-size: rem(20);
+  }
+}

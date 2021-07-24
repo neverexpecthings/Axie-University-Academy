@@ -1,3 +1,40 @@
+@use 'util' as *;
+
 .card {
   margin-top: rem(40);
+
+  &_left,
+  &_mid,
+  &_right {
+    height: rem(700);
+    width: rem(500);
+  }
+
+  &_left {
+    background: var(--bg-section) no-repeat 10% 100%
+      url("../../../image/gbFigureLeft.svg");
+  }
+
+  &_mid {
+    margin-top: rem(-40);
+    background: var(--bg-section) no-repeat 10% 90%
+      url("../../../image/gbFigureMid.svg");
+  }
+
+  &_right {
+    background: var(--bg-section) no-repeat 10% 80%
+      url("../../../image/gbFigureRight.svg");
+  }
+
+  &_mt--left {
+    margin-top: rem(70);
+  }
+
+  &_mt--mid {
+    margin-top: rem(50);
+  }
+
+  &_mt--right {
+    margin-top: rem(70);
+  }
 }
