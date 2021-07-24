@@ -39,6 +39,11 @@ a:active {
     width: rem(930);
     font-size: rem(133);
   }
+
+  @include breakpoint-down(large) {
+    font-size: rem(115);
+    width: rem(800);
+  }
 }
 
 .section_Header-one {
@@ -53,6 +58,11 @@ a:active {
   width: rem(1328);
   margin-top: 0;
   font-weight: 400;
+
+  @include breakpoint-down(large) {
+    width: rem(1000);
+    text-align: center;
+  }
 }
 
 .last_h1 {
@@ -60,6 +70,12 @@ a:active {
   width: rem(1000);
   font-size: rem(128);
   margin-left: rem(150);
+
+  @include breakpoint-down(large) {
+    font-size: rem(76);
+    width: rem(592);
+    margin-left: rem(100);
+  }
 }
 
 .footer {

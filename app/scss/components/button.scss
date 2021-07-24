@@ -8,4 +8,8 @@
   @include breakpoint-down(xlarge) {
     left: rem(975);
   }
+
+  @include breakpoint-down(large) {
+    left: rem(690);
+  }
 }

@@ -8,6 +8,10 @@
   @include breakpoint-down(xlarge) {
     width: rem(1328);
   }
+
+  @include breakpoint-down(large) {
+    width: rem(980);
+  }
 }
 
 .hero {
@@ -35,6 +39,11 @@
     left: 65.37%;
     top: 182%;
   }
+
+  @include breakpoint-down(large) {
+    left: 61.37%;
+    top: 189%;
+  }
 }
 
 .mid {
@@ -53,6 +62,11 @@
   width: rem(1665);
   height: rem(830);
   background-color: var(--bg-section);
+
+  @include breakpoint-down(large) {
+    width: rem(1000);
+    height: rem(500);
+  }
 }
 
 .links {

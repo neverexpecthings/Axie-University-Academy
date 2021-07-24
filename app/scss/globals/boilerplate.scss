@@ -24,4 +24,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: local;
+
+  @include breakpoint-down(xlarge) {
+    background-size: 120%;
+  }
 }
