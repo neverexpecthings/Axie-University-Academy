@@ -48,14 +48,29 @@
 
 .mid {
   position: absolute;
-  left: rem(445.64);
-  top: rem(1455.13);
+  left: rem(669);
+  top: rem(1551);
+
+  @include breakpoint-down(xlarge) {
+    left: rem(445);
+    top: rem(1451);
+  }
+
+  // @include breakpoint-down(large) {
+  //   left: rem(420);
+  //   top: rem(1200);
+  // }
 }
 
 .left {
   position: absolute;
-  left: rem(35);
-  top: rem(1405);
+  left: rem(120);
+  top: rem(1480);
+
+  @include breakpoint-down(xlarge) {
+    left: rem(35);
+    top: rem(1380);
+  }
 }
 
 .rectangle {
