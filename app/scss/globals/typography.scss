@@ -1,0 +1,63 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.yellow {
+  color: var(--main-yellow);
+}
+
+.hero_main-link {
+  font-weight: bold;
+  font-size: rem(48);
+  margin-left: rem(40);
+  color: var(--main-yellow);
+}
+
+.hero_sub-link {
+  font-weight: bold;
+  font-size: rem(30);
+  color: var(--white);
+}
+
+.hero-main-h1 {
+  width: rem(950);
+  font-size: rem(155);
+}
+
+.section_Header-one {
+  margin-top: rem(400);
+  margin-bottom: rem(150);
+  font-size: rem(72);
+}
+
+.text {
+  display: inline-block;
+  font-size: rem(28);
+  width: rem(1328);
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.last_h1 {
+  display: inline-block;
+  width: rem(1000);
+  font-size: rem(128);
+  margin-left: rem(150);
+}
+
+.footer {
+  color: var(--white);
+  font-size: rem(30);
+  margin-right: rem(10);
+}

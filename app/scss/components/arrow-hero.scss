@@ -1,0 +1,23 @@
+@use 'util' as *;
+
+.arrow {
+  position: absolute;
+  left: rem(1400);
+  top: rem(620);
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.vector {
+  position: absolute;
+  left: rem(1325);
+  top: rem(500);
+}

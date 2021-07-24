@@ -1,0 +1,50 @@
+@use 'util' as *;
+
+.wrapper {
+  width: rem(1744);
+  margin: rem(50) auto;
+}
+
+.hero {
+  display: block;
+}
+
+.section_One {
+  margin-top: rem(300);
+}
+
+.section_Two {
+  margin-top: rem(200);
+}
+
+.last_Section {
+  margin-top: rem(150);
+}
+
+.right {
+  position: absolute;
+  left: 69.37%;
+  top: 171.79%;
+}
+
+.mid {
+  position: absolute;
+  left: rem(677.64);
+  top: rem(1515.13);
+}
+
+.left {
+  position: absolute;
+  left: rem(119);
+  top: rem(1466);
+}
+
+.rectangle {
+  width: rem(1665);
+  height: rem(830);
+  background-color: var(--bg-section);
+}
+
+.links {
+  margin-top: rem(30);
+}
