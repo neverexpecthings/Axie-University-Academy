@@ -35,7 +35,7 @@
   left: 69.37%;
   top: 175%;
 
-  @include breakpoint(xlarge) {
+  @include breakpoint-down(xlarge) {
     left: 65.37%;
     top: 182%;
   }
@@ -48,8 +48,8 @@
 
 .mid {
   position: absolute;
-  left: rem(669);
-  top: rem(1551);
+  left: 41.8125rem;
+  top: 96.9375rem;
 
   @include breakpoint-down(xlarge) {
     left: rem(445);
@@ -64,8 +64,8 @@
 
 .left {
   position: absolute;
-  left: rem(120);
-  top: rem(1480);
+  left: 7.5rem;
+  top: 92.5rem;
 
   @include breakpoint-down(xlarge) {
     left: rem(35);
