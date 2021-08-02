@@ -1,0 +1,17 @@
+@use 'util' as *;
+
+.rectangle {
+  position: relative;
+  width: rem(1665);
+  height: rem(830);
+  background-color: var(--bg-section);
+
+  @include breakpoint-down(large) {
+    width: rem(1000);
+    height: rem(500);
+  }
+}
+
+.links {
+  margin-top: rem(30);
+}

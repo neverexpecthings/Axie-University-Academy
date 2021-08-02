@@ -3,10 +3,10 @@
 .button {
   position: absolute;
   left: rem(1260);
-  top: rem(3675);
+  top: rem(625);
 
   @include breakpoint-down(xlarge) {
-    left: rem(975);
+    left: rem(960);
   }
 
   @include breakpoint-down(large) {

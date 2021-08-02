@@ -1,7 +1,8 @@
 @use 'util' as *;
 
+//body wrapper
 .wrapper {
-  width: rem(1744);
+  width: 92%;
   margin-top: rem(50);
   margin-bottom: rem(30);
 
@@ -14,10 +15,7 @@
   }
 }
 
-.hero {
-  display: block;
-}
-
+//margin for sections
 .section_One {
   margin-top: rem(300);
 }
@@ -28,19 +26,4 @@
 
 .last_Section {
   margin-top: rem(150);
-}
-
-.rectangle {
-  width: rem(1665);
-  height: rem(830);
-  background-color: var(--bg-section);
-
-  @include breakpoint-down(large) {
-    width: rem(1000);
-    height: rem(500);
-  }
-}
-
-.links {
-  margin-top: rem(30);
 }

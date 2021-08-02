@@ -1,5 +1,10 @@
 @use 'util' as *;
 
+.arrowLink {
+  position: relative;
+  top: rem(-880);
+}
+
 .arrow {
   position: absolute;
   left: rem(1400);

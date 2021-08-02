@@ -3,6 +3,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -19,13 +20,9 @@ body {
   font-family: var(--font-rubik);
   background: var(--bg-body);
   color: var(--white);
-  min-height: 150vh;
+  min-height: 100vh;
   background-image: url("../../../image/desktop_BG.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw 100vh;
   background-attachment: local;
-
-  @include breakpoint-down(xlarge) {
-    background-size: 120%;
-  }
 }
